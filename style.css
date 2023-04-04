@@ -30,8 +30,8 @@
     .hero{
         background-image: url(./images/sohp-hero-mobile.webp);
         background-size: cover;
-        height: 500px;
-        width: 100%;
+        height: 250px;
+        width: 220px;
     }
 
     .content{
@@ -46,6 +46,7 @@
     color: #fff;
     font-weight: 700;
     width: 690px;
+    
 
 }
 
