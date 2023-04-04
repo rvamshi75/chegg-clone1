@@ -1,0 +1,124 @@
+/* .container .logo{
+    color: rgb(235,113,0);
+} */
+
+.nav-link:hover{
+    border-bottom: 5px solid rgb(235,113,0);
+}
+
+.sep{
+    border-right:1px solid gray ;
+    
+    height: 30px;
+}
+.hero{
+    background-image: url(./images/Hero-image.webp);
+    background-size: cover;
+    height: 500px;
+}
+
+
+@media (min-width:500px){
+    .hero{
+        background-image: url(./images/Hero-image.webp);
+        background-size: cover;
+        height: 500px;
+    }
+}
+
+@media (max-width:500px){
+    .hero{
+        background-image: url(./images/sohp-hero-mobile.webp);
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+
+    .content{
+        
+        display: none           ;
+    
+    }
+}
+
+.content{
+    padding: 160px 0 0 100px;
+    color: #fff;
+    font-weight: 700;
+    width: 690px;
+
+}
+
+/* .btn{
+    background-color:rgb(235,113,0) ;
+   
+}
+*/
+.content .btn1:hover{
+    background-color:rgb(200, 187, 175)  ;
+    color: #070707;
+} 
+
+a{
+    text-decoration: none;
+}
+
+.img-header{
+    position: relative;
+}
+
+.tag{
+    position: absolute;
+    top: 0;
+    background-color: rgb(235,113,0);
+    color: #fff;
+    padding: 8px 25px; 
+    border-radius: 12px 0 12px 0;
+}
+
+.card{
+    border-radius: 12px;
+}
+
+.study{
+    
+    color: #070707;
+    font-weight: 700;
+    width: 550px;
+    margin-top: 160px;
+}
+.fs{
+    overflow: hidden;
+    width: 100%;
+    
+    margin-bottom: 110px;
+    font-size: 3em;
+}
+
+.fs1{
+    font-size: 50px;
+}
+
+.img1{
+    width: 550px;
+}
+
+.fshelp{
+    margin: 80px 0 50px 0;
+    font-size: 3.5em;
+}
+
+.panel-career{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/panel-careers.webp);
+    height: 600px;
+}
+
+.panel-life{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/panel-life.webp);
+    height: 600px;
+}
